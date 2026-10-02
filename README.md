@@ -37,6 +37,25 @@ The game is intended to:
 - use Polish as the default player language, with English added later;
 - keep code and developer documentation in English.
 
+## Development
+
+Node.js 24 is required.
+
+```bash
+npm install
+npm run dev
+```
+
+| Script | Purpose |
+| --- | --- |
+| `npm run dev` | Start the Vite development server. |
+| `npm run build` | Production build to `dist/`. |
+| `npm run test` | Run the tests once with Vitest. |
+| `npm run typecheck` | Type-check the project with TypeScript. |
+| `npm run lint` | Check code and formatting with Biome. |
+| `npm run format` | Format code with Biome. |
+| `npm run verify` | Quality gate: lint, typecheck, test, build. |
+
 ## License
 
 MIT
